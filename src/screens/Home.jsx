@@ -8,7 +8,7 @@ const Home = () => {
   const [takePledge, setTakePledge] = useState(false)
 
   return (
-    <div>
+    <div style={{padding: '50px'}}>
       <PledgeButton setTakePledge={setTakePledge}/>
       {takePledge && 
         <PledgeForm setUpdateSignatures={setUpdateSignatures} setTakePledge={setTakePledge}/>

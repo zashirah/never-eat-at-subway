@@ -8,8 +8,6 @@ const PledgeForm = ( {setUpdateSignatures, setTakePledge} ) => {
     fontType: ''
   })
 
-  // const [isCreated, setIsCreated] = useState(false)
-
   const handleChange = (event) => {
     const { name, value } = event.target
     setPledgee({

@@ -5,10 +5,10 @@ const Nav = () => {
     return (
         <nav>
             <div className="nav">
-                <NavLink className="logo" to="/">ProductsApp</NavLink>
+                <NavLink className="logo" to="/">iwillnevereatatsubwayagain.com</NavLink>
                 <div className="links">
                     <NavLink className="link" to="/products">Products</NavLink>
-                    <NavLink className="link" to="/add-product">Add Product</NavLink>
+                    <NavLink className="link" to="/donate">Donate</NavLink>
                 </div>
             </div>
         </nav>

@@ -21,7 +21,6 @@ const PledgeForm = ( {setUpdateSignatures, setTakePledge} ) => {
   const handlePledgeeSubmit = async (event) => {
     event.preventDefault()
     await createSignature(pledgee.name, pledgee.fontType)
-    // setIsCreated( {created} )
     setUpdateSignatures(prevState => !prevState)
     setTakePledge(false)
   }

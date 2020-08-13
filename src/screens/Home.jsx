@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <div style={{ padding: '50px' }}>
-      <PledgeCount/>
+      <PledgeCount updateSignatures={updateSignatures}/>
       <PledgeButton setTakePledge={setTakePledge}/>
       {takePledge && 
         <PledgeForm setUpdateSignatures={setUpdateSignatures} setTakePledge={setTakePledge}/>

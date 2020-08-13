@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { getSignatures } from "../services/signatures"
 
-const PledgeCount = () => {
+const PledgeCount = ({ updateSignatures }) => {
   const [pledgeCount, updatePledgeCount] = useState(0)
 
     useEffect(() => {
@@ -11,7 +11,7 @@ const PledgeCount = () => {
       // console.log(typeof signatures)
     }
     fetchSignatures()
-    }, [])
+    }, [updateSignatures])
   
   return (
 

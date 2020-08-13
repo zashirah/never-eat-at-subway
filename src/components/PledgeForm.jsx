@@ -60,6 +60,7 @@ const PledgeForm = ( {setUpdateSignatures, setTakePledge} ) => {
         </div>
         
       </form>
+      <h1 style={{fontFamily:`${pledgee.fontType}`}}>{pledgee.name}</h1>
     </div>
   )
 }
